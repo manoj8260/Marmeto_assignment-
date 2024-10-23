@@ -1,0 +1,287 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    color: #000000;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #ffffff;
+}
+
+ header .logo{
+    width: 20%;
+    height: 41px;
+    background-image: url('./photo/Frame\ 168.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 10px 0px;
+ }
+
+nav ,ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;  
+    
+}
+ul li{
+    font-size: 16px;
+    font-weight: 700;
+}
+ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+.image{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+   
+}
+.image img{
+    width: 28px;
+    height: 28px;
+    
+}
+.cart-container {
+    width: 100%;
+    height: 316px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    background-image: url('./photo/Rectangle\ 1.png');
+    background-size: cover;
+  
+}
+
+
+.cart-items {
+    width: 106px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+   
+}
+.cart-items img{
+width: 106px;
+height: 80%;
+
+}
+.cart-items h4{
+   font-size: 17px;
+}
+.cart-items h4  span{
+   font-weight: 300;
+}
+
+.cart-summary {
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+.cart-container-list{
+    width: 100%;
+    height: 425px;
+    display: flex;
+    
+}
+.cart-list1{
+    width: 73%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0px;
+    
+}
+.cart-list1-top{
+    width: 85%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9F1E7;
+}
+
+.cart-list1-bottom{
+    width: 85%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.bottom{
+    width: 49%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+    
+.bottom1 h3{
+    color: #9F9F9F;
+   font-size: 14px;
+}
+.bottom1 img{
+    width: 108px;
+    height: 105px;
+   background-size: cover;
+}
+.bottom2 #quantity{
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+    border: 1px solid #9F9F9F;
+    border-radius: 5px;
+    
+
+}
+#subtotal h3{
+    font-size: 18px;
+    font-weight: 300;
+
+}
+.bottom2 #delete{
+    width: 30px;
+    height: 30px;
+   background-image: url('./photo/ant-design_delete-filled.png');
+   background-size: cover;
+
+}
+.cart-list2{
+    width:28%;
+    height: 293px;
+    margin-top: 70px;
+   
+}
+.cart-tools{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    background-color: #F9F1E7;
+}
+.cart-tool{
+    width: 90%;
+    height: 30%;
+   
+}
+.cart-tool1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart-tool2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.cart-tool2 div{
+    display: flex; 
+    gap: 70px;
+}
+.cart-tool2 #subtotal{
+    color: #9F9F9F;
+    
+}
+.cart-tool2 #total{
+    color: #B88E2F;
+    font-size: 17px;
+    
+}
+
+.cart-tool3{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+.cart-tool3 button{
+    width: 70%;
+    height: 55%;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #FAF3EA ;
+}
+.section{
+    width: 20%;
+    height: 50%;
+    display: flex;
+    gap: 5px;
+   
+}
+.section .img{
+    width: 25%;
+    height: 100%;
+   
+}
+.part{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+   
+}
+
+.part h2{
+    font-size: 22px;
+}
+.high-quality .img{
+    background-image: url(./photo/trophy\ 1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.warranty-protection .img{
+    background-image: url(./photo/guarantee.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.free-shopping .img{
+    background-image: url(./photo/shipping.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.service-icons .img{
+    background-image: url(./photo/customer-support.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
